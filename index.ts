@@ -25,6 +25,7 @@ import { cunnier, grantWriteAccess, team } from './lib'
 //
 cunnier('chayapatr')
 cunnier('DrowningToast')
+cunnier('goragod')
 cunnier('Gusb3ll')
 cunnier('Leomotors')
 cunnier('NakZaa')
@@ -37,7 +38,6 @@ cunnier('sleepntsheep')
 cunnier('ST4RCHASER')
 cunnier('tinarskii')
 cunnier('WitMaster98')
-cunnier('goragod')
 
 //! Only edit the above lines and not the rest of this file.
 const coreMembers = team('core-members', {
