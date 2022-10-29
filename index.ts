@@ -37,6 +37,7 @@ cunnier('sleepntsheep')
 cunnier('ST4RCHASER')
 cunnier('tinarskii')
 cunnier('WitMaster98')
+cunnier('goragod')
 
 //! Only edit the above lines and not the rest of this file.
 const coreMembers = team('core-members', {
