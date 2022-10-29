@@ -1,4 +1,4 @@
-import { cunnier } from './lib'
+import { cunnier, grantWriteAccess, team } from './lib'
 
 // If you participated in our events and consider yourself a creator,
 // feel free to add your username to the list below and be invited into
@@ -37,3 +37,20 @@ cunnier('sleepntsheep')
 cunnier('ST4RCHASER')
 cunnier('tinarskii')
 cunnier('WitMaster98')
+
+const coreMembers = team('core-members', {
+  name: 'Millennium',
+  description: 'Core Members',
+})
+
+coreMembers('Gusb3ll')
+coreMembers('Leomotors')
+coreMembers('chayapatr')
+coreMembers('narze')
+coreMembers('rayriffy')
+coreMembers('SaltyAom')
+coreMembers('tinarskii')
+
+grantWriteAccess('saltyaom', coreMembers)
+grantWriteAccess('177013-commits', coreMembers)
+grantWriteAccess('torpleng-anisong', coreMembers)
