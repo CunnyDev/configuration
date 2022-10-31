@@ -35,6 +35,7 @@ cunnier('mountainity')
 cunnier('NakZaa')
 cunnier('narze')
 cunnier('palmcm')
+cunnier('pathonscript')
 cunnier('Qwenty228')
 cunnier('rayriffy')
 cunnier('ronnapatp')
@@ -43,7 +44,6 @@ cunnier('sleepntsheep')
 cunnier('ST4RCHASER')
 cunnier('tinarskii')
 cunnier('WitMaster98')
-cunnier('pathonscript')
 
 //! Only edit the above lines and not the rest of this file.
 const coreMembers = team('core-members', {
