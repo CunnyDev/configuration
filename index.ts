@@ -44,6 +44,7 @@ cunnier('ronnapatp')
 cunnier('SaltyAom')
 cunnier('sleepntsheep')
 cunnier('ST4RCHASER')
+cunnier('thanhgaming5550')
 cunnier('tinarskii')
 cunnier('WitMaster98')
 
