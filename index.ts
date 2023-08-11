@@ -63,6 +63,7 @@ coreMembers('narze')
 coreMembers('rayriffy')
 coreMembers('SaltyAom')
 coreMembers('tinarskii')
+coreMembers('GoddessOfDev')
 
 grantWriteAccess('saltyaom', coreMembers)
 grantWriteAccess('177013-commits', coreMembers)
