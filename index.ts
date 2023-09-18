@@ -24,6 +24,7 @@ import { cunnier, grantWriteAccess, team } from './lib'
 // PLEASE KEEP THIS LIST SORTED ALPHABETICALLY.
 //
 cunnier('chayapatr')
+cunnier('Cloneee')
 cunnier('DrowningToast')
 cunnier('dtinth')
 cunnier('goragod')
