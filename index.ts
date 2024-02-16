@@ -51,6 +51,7 @@ cunnier('thanhgaming5550')
 cunnier('tinarskii')
 cunnier('wasdee')
 cunnier('WitMaster98')
+cunnier('zunzureal')
 
 //! Only edit the above lines and not the rest of this file.
 const coreMembers = team('core-members', {
