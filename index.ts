@@ -23,6 +23,7 @@ import { cunnier, grantWriteAccess, team } from './lib'
 //
 // PLEASE KEEP THIS LIST SORTED ALPHABETICALLY.
 //
+cunnier('absolute-tk')
 cunnier('chayapatr')
 cunnier('Cloneee')
 cunnier('DrowningToast')
