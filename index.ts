@@ -25,6 +25,7 @@ import { cunnier, grantWriteAccess, team } from './lib'
 //
 cunnier('absolute-tk')
 cunnier('chayapatr')
+cunnier('chisaato')
 cunnier('Cloneee')
 cunnier('DrowningToast')
 cunnier('dtinth')
