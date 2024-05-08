@@ -23,6 +23,7 @@ import { cunnier, grantWriteAccess, team } from './lib'
 //
 // PLEASE KEEP THIS LIST SORTED ALPHABETICALLY.
 //
+cunnier('7valkio')
 cunnier('absolute-tk')
 cunnier('chayapatr')
 cunnier('chisaato')
@@ -59,7 +60,6 @@ cunnier('volt-l18')
 cunnier('wasdee')
 cunnier('WitMaster98')
 cunnier('zunzureal')
-cunnier('7valkio')
 
 //! Only edit the above lines and not the rest of this file.
 const coreMembers = team('core-members', {
