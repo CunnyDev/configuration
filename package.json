@@ -5,6 +5,7 @@
     "@pulumi/pulumi": "3.44.3"
   },
   "devDependencies": {
-    "@types/node": "^16"
-  }
+    "@types/node": "^22"
+  },
+  "packageManager": "pnpm@9.15.1"
 }

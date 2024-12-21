@@ -12,20 +12,19 @@ jobs:
       PULUMI_CONFIG_PASSPHRASE: ${{ secrets.PULUMI_CONFIG_PASSPHRASE }}
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 1 
+          fetch-depth: 1
 
       - name: Setup node 🏗
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 22
 
       - name: Setup pnpm 📦
         id: pnpm-install
-        uses: pnpm/action-setup@v2.2.2
+        uses: pnpm/action-setup@v4
         with:
-          version: 7
           run_install: false
 
       - name: Get pnpm store directory 📁
@@ -50,24 +49,24 @@ jobs:
 
       - uses: actions/checkout@v3
         with:
-          repository: "CunnyDev/stack"
+          repository: 'CunnyDev/stack'
           token: ${{ steps.githubAppAuth.outputs.token }}
           path: stack
 
       - run: pnpm install
-        
+
       - run: curl -fsSL https://get.pulumi.com | sh
-        
+
       - run: ~/.pulumi/bin/pulumi login --local
-        
+
       - run: ~/.pulumi/bin/pulumi stack init cunnydev
-        
+
       - run: ~/.pulumi/bin/pulumi stack select cunnydev
-        
+
       - run: ~/.pulumi/bin/pulumi stack import --file=stack/stack.json
-        
+
       - run: ~/.pulumi/bin/pulumi preview
-        
+
       - run: ~/.pulumi/bin/pulumi up --yes
         env:
           GITHUB_TOKEN: ${{ steps.githubAppAuth.outputs.token }}
@@ -75,7 +74,7 @@ jobs:
 
       - run: ~/.pulumi/bin/pulumi stack export --file=stack/stack.json
         if: github.ref == 'refs/heads/main'
-        
+
       - run: cat stack/stack.json
         if: github.ref == 'refs/heads/main'
 
